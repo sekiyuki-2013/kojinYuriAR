@@ -29,11 +29,11 @@ function draw() {
   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
   // キャラ（右側に立たせる例）
-  const size = canvas.width * 0.35;
+  const size = canvas.width * 1.1;
   ctx.drawImage(
     chara,
     canvas.width - size - 210,
-    canvas.height - size,
+    canvas.height - size + 100,
     size,
     size
   );
