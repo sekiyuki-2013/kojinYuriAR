@@ -33,7 +33,7 @@ function draw() {
   ctx.drawImage(
     chara,
     canvas.width - size - 210,
-    canvas.height - size + 100,
+    canvas.height - size - 100,
     size,
     size
   );
