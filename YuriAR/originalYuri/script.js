@@ -32,7 +32,7 @@ function draw() {
   const size = canvas.width * 0.73;
   ctx.drawImage(
     chara,
-    canvas.width - size - 50,
+    canvas.width - size - 55,
     canvas.height - size - 100,
     size,
     size
